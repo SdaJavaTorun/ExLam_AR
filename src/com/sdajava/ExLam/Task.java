@@ -9,14 +9,10 @@ public class Task {
     private String id;
     private TaskType type;
 
-    public Task(String title, String id, TaskType type) {
+    public Task(String id, String title, TaskType type) {
         this.title = title;
         this.id = id;
         this.type = type;
-    }
-
-    public Task(String title, String id, Main.TaskType reading) {
-
     }
 
     public String getTitle() {

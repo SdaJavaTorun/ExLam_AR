@@ -1,6 +1,6 @@
 package com.sdajava.ExLam;
 
 enum TaskType {
-    READING
+    READING, WRITING;
 }
 
